@@ -13,14 +13,14 @@
     <h2>Kết quả Tính Chiết Khấu</h2>
 
     <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") { // Kiểm tra nếu yêu cầu là POST
-        $description = $_POST['description']; // Lấy mô tả sản phẩm
-        $listPrice = $_POST['price']; // Lấy giá niêm yết của sản phẩm
-        $discountPercent = $_POST['discount']; // Lấy phần trăm chiết khấu
+    if ($_SERVER["REQUEST_METHOD"] == "POST") { 
+        $description = $_POST['description'];
+        $listPrice = $_POST['price']; 
+        $discountPercent = $_POST['discount']; 
     
         // Tính toán chiết khấu
-        $discountAmount = $listPrice * $discountPercent * 0.01; // Số tiền được chiết khấu
-        $discountPrice = $listPrice - $discountAmount; // Giá sau khi chiết khấu
+        $discountAmount = $listPrice * $discountPercent * 0.01; 
+        $discountPrice = $listPrice - $discountAmount; 
     
         echo "<table border='1' cellpadding='10' cellspacing='0'>";
         echo "<tr><th>Thông tin</th><th>Giá trị</th></tr>";
