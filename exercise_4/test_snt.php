@@ -32,7 +32,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <title>Kiểm tra số nguyên tố</title>
     <style>
-        /* Căn giữa trang */
         body {
             font-family: Arial, sans-serif;
             display: flex;
@@ -43,7 +42,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             background-color: #f4f4f4;
         }
 
-        /* Căn giữa form và chỉnh sửa form */
         form {
             background-color: #fff;
             padding: 30px;
