@@ -1,2 +1,3 @@
 # lesson1
-bài tập ngày đầu tiên
+- Sử dụng action để gọi form
+- Hiểu về HTTP và cách thức hoạt động của nó
